@@ -1,0 +1,47 @@
+body {
+    margin: 0px;
+    padding: 0;
+    height: 100vh;
+    width: 100vw;
+}
+.background {
+    height: 99%;
+    width: 100vw;
+}
+.content {
+    background-color: rgba(68, 68, 68, 0.767);
+    position: fixed;
+    bottom: 0px;
+    padding: 1%;
+    margin: 1.4%;
+    border: 4px solid #222;
+    box-shadow: 1px 1px 2px 4px;
+    border-radius: 10px;
+    width: 30vw;
+}
+.cr7 {
+    position: absolute;
+    bottom: 3px;
+    right: 5px;
+    min-height: 50vh;
+    min-width: 30vw;
+    max-height: 90vh;
+    max-width: 60vw;
+}
+.quem {
+    width: 100%;
+    border: 2px solid #222;
+}
+.opcoes {
+    position: absolute;
+    top: 10%;
+    padding: 1%;
+    display: none;
+    background-color: rgba(4, 4, 7, 0.116);
+    height: 10vh;
+}
+.btn-op {
+    border-radius: 10px;
+    background-color: rgba(34, 34, 34, 0.575);
+    margin: 0.2rem;
+}
