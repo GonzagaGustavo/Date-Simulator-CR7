@@ -30,7 +30,8 @@ function trocar() {
       trocar();
     });
     dois.addEventListener("click", () => {
-      level = -1;
+      alert("Game Over!")
+      window.location.reload()
     });
   } else if (level === 4) {
     opcoes.style.display = "none";
@@ -52,5 +53,26 @@ function trocar() {
       level++
       cr7.src = "Imagem8.png"
       text.innerText = "Parece a casa do Neymar kkk"
+  } else if(level === 8) {
+    level++
+    falante.innerHTML = "Nóia";
+    text.innerText = "Parece a casa de quem?"
+    cr7.src = "Imagem9.png"
+  } else if(level === 9) {
+    level++
+    falante.innerHTML = "CR7"
+    text.innerText = "Acho melhor nós sairmos daqui 😥"
+    cr7.src = "Imagem10.png"
+  } else if(level === 10) {
+    level++
+    falante.innerHTML = null
+    text.innerText = "Chengando no restaurante..."
+    background.src = "Imagem11.jpg"
+    cr7.src = "none"
+  } else if(level === 11) {
+    level++
+    falante.innerHTML = "Jackin"
+    text.innerText = "Óhh. Mas que bela mossa"
+    cr7.src = "Imagem12.png"
   }
 }
